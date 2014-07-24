@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'iOS-utilities'
+  s.name                  = 'RSCategories'
   s.version               = '0.0.2'
   s.author                = {
     "Rafal Szastok" => "r.szastok@gmail.com"
