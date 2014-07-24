@@ -94,7 +94,7 @@
         case kValidationPassword:
             return YES;
         default:
-            DLog(@"Index out of range");
+            NSLog(@"Index out of range");
             return NO;
     }
     NSRange nond = [self rangeOfCharacterFromSet:set];
@@ -121,7 +121,7 @@
         case kValidationPassword:
             return self.length >= 5;
         default:
-            DLog(@"Index out of range");
+            NSLog(@"Index out of range");
             return NO;
     }
 }
