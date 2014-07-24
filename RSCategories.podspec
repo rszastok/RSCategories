@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 }
   s.source_files          = 'lib/*.{h,m}'
   
-  s.homepage              = 'https://github.com/rszastok/iOS-utilities/'
+  s.homepage              = 'https://github.com/rszastok/RSCategories/'
   s.summary 			  = 'Set of useful objC-Categories and Classes.'
   
   s.license               = 'MIT license'
