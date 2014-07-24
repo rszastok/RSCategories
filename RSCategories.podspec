@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name                  = 'iOS-utilities'
-  s.version               = '0.2.0'
+  s.version               = '0.0.2'
   s.author                = {
     "Rafal Szastok" => "r.szastok@gmail.com"
     }
   s.source                = {
-    :git => 'https://github.com/rszastok/iOS-utilities.git',
+    :git => 'https://github.com/rszastok/RSCategories.git',
     :tag => s.version.to_s
 }
   s.source_files          = 'lib/*.{h,m}'
